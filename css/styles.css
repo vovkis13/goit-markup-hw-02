@@ -1,3 +1,135 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --white-text-color: #ffffff;
+  --black-text-color: #000000;
+}
+
 body {
-  font-family: 'Roboto', serif;
+  font-family: 'Roboto', sans-serif;
+
+  color: var(--secondary-text-color);
+}
+/*header*/
+.logo span {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-first-part {
+  color: var(--accent-text-color);
+}
+.logo-second-part {
+  color: var(--black-text-color);
+}
+.nav {
+  color: var(--primary-text-color);
+}
+.nav:hover,
+.nav:focus {
+  color: var(--accent-text-color);
+}
+.addr {
+  color: var(--secondary-text-color);
+  font-style: normal;
+}
+.addr:hover,
+.addr:focus {
+  color: var(--accent-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+/*Герой*/
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+  /* Цвет фона для видимости текста*/
+  background-color: #2f303a;
+}
+/*Преимущества*/
+
+.advantage {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-text-color);
+}
+
+.advantage-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/*Сферы деятельности*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/*Команда*/
+.teammate {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.teammate-position {
+ 
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+/*footer*/
+.real-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-text-color);
+  /* Цвет фона для видимости текста*/
+  background-color: #2f303a;
+}
+
+.email,
+.phone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  /* Цвет фона для видимости текста*/
+  background-color: #2f303a;
 }
