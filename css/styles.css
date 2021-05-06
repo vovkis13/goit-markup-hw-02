@@ -4,11 +4,12 @@
   --accent-text-color: #2196f3;
   --white-text-color: #ffffff;
   --black-text-color: #000000;
+  --button-primary-bg-color: #F5F4FA;
+  --hero-button-hover-color: #188ce8;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-
   color: var(--secondary-text-color);
 }
 /*header*/
@@ -35,7 +36,6 @@ body {
 }
 .addr {
   color: var(--secondary-text-color);
-  font-style: normal;
 }
 .addr:hover,
 .addr:focus {
@@ -65,6 +65,23 @@ body {
   /* Цвет фона для видимости текста*/
   background-color: #2f303a;
 }
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+  background-color: var(--accent-text-color);
+
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hero-button-hover-color);
+}
+
 /*Преимущества*/
 
 .advantage {
@@ -78,7 +95,6 @@ body {
 }
 
 .advantage-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -102,7 +118,6 @@ body {
   color: var(--primary-text-color);
 }
 .teammate-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -110,6 +125,25 @@ body {
 }
 
 /*Портфолио*/
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--button-primary-bg-color);
+
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus
+ {
+  color: var(--white-text-color);
+  background-color: var(--accent-text-color);
+}
+
 
 .portfolio-item {
   font-weight: 700;
@@ -120,7 +154,6 @@ body {
 }
 
 .portfolio-item-description {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;

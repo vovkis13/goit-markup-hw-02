@@ -15,12 +15,12 @@
     <!--Шапка-->
     <header>
       <nav>
-        <a lang="en" href="index.html" class="logo link"
+        <a lang="en" href="./index.html" class="logo link"
           ><span class="logo-first-part">Web</span><span class="logo-second-part">Studio</span></a
         >
         <ul class="list">
           <li>
-            <a href="" class="nav link">Студия</a>
+            <a href="./index.html" class="nav link">Студия</a>
           </li>
           <li>
             <a href="./portfolio.html" class="nav link">Портфолио</a>
@@ -41,19 +41,19 @@
         <h1>Наши работы</h1>
         <ul class="list">
           <li>
-            <button type="button">Все</button>
+            <button type="button" class="filter-button">Все</button>
           </li>
           <li>
-            <button type="button">Веб-сайты</button>
+            <button type="button" class="filter-button">Веб-сайты</button>
           </li>
           <li>
-            <button type="button">Приложения</button>
+            <button type="button" class="filter-button">Приложения</button>
           </li>
           <li>
-            <button type="button">Дизайн</button>
+            <button type="button" class="filter-button">Дизайн</button>
           </li>
           <li>
-            <button type="button">Маркетинг</button>
+            <button type="button" class="filter-button">Маркетинг</button>
           </li>
         </ul>
         <ul class="list">
@@ -62,6 +62,8 @@
               <img
                 src="./images/portfolio/technocrack.jpg"
                 alt="Интернет страница с изображениями людей"
+                width="370"
+                height="294"
               />
               <h2 class="portfolio-item">Технокряк</h2>
               <p class="portfolio-item-description">Веб-сайт</p>
@@ -69,49 +71,79 @@
           </li>
           <li>
             <a>
-              <img src="./images/portfolio/basketball.jpg" alt="Баскетболисты" />
+              <img
+                src="./images/portfolio/basketball.jpg"
+                alt="Баскетболисты"
+                width="370"
+                height="294"
+              />
               <h2 class="portfolio-item">Постер New Orlean vs Golden Star</h2>
               <p class="portfolio-item-description">Дизайн</p>
             </a>
           </li>
           <li>
             <a>
-              <img src="./images/portfolio/seafood.jpg" alt="Логотип ресторана Seafood" />
+              <img
+                src="./images/portfolio/seafood.jpg"
+                alt="Логотип ресторана Seafood"
+                width="370"
+                height="294"
+              />
               <h2 class="portfolio-item">Ресторан Seafood</h2>
               <p class="portfolio-item-description">Приложение</p>
             </a>
           </li>
           <li>
             <a>
-              <img src="./images/portfolio/prime.jpg" alt="Наушники" />
+              <img src="./images/portfolio/prime.jpg" alt="Наушники" width="370" height="294" />
               <h2 class="portfolio-item">Проект Prime</h2>
               <p class="portfolio-item-description">Маркетинг</p>
             </a>
           </li>
           <li>
             <a>
-              <img src="./images/portfolio/boxes.jpg" alt="Две разные коробки" />
+              <img
+                src="./images/portfolio/boxes.jpg"
+                alt="Две разные коробки"
+                width="370"
+                height="294"
+              />
               <h2 class="portfolio-item">Проект Boxes</h2>
               <p class="portfolio-item-description">Приложение</p>
             </a>
           </li>
           <li>
             <a>
-              <img src="./images/portfolio/inspiration.jpg" alt="Компьютер с открытым сайтом" />
+              <img
+                src="./images/portfolio/inspiration.jpg"
+                alt="Компьютер с открытым сайтом"
+                width="370"
+                height="294"
+              />
               <h2 class="portfolio-item">Inspiration has no Borders</h2>
               <p class="portfolio-item-description">Веб-сайт</p>
             </a>
           </li>
           <li>
             <a>
-              <img src="./images/portfolio/limited-edition.jpg" alt="Разворот журнала" />
+              <img
+                src="./images/portfolio/limited-edition.jpg"
+                alt="Разворот журнала"
+                width="370"
+                height="294"
+              />
               <h2 class="portfolio-item">Издание Limited Edition</h2>
               <p class="portfolio-item-description">Дизайн</p>
             </a>
           </li>
           <li>
             <a>
-              <img src="./images/portfolio/lab.jpg" alt="Бирка с надписью" />
+              <img
+                src="./images/portfolio/lab.jpg"
+                alt="Бирка с надписью"
+                width="370"
+                height="294"
+              />
               <h2 class="portfolio-item">Проект LAB</h2>
               <p class="portfolio-item-description">Маркетинг</p>
             </a>
@@ -121,6 +153,8 @@
               <img
                 src="./images/portfolio/growing-business.jpg"
                 alt="Человек работает за ноутбуком"
+                width="370"
+                height="294"
               />
               <h2 class="portfolio-item">Growing Business</h2>
               <p class="portfolio-item-description">Приложение</p>
@@ -134,10 +168,12 @@
       <a lang="en" href="./index.html" class="logo link"
         ><span class="logo-first-part">Web</span><span class="logo-second-part">Studio</span></a
       >
-      <address >
-        <p class='real-address'>г. Киев, пр-т Леси Украинки, 26</p>
-        <p class="email">info@example.com</p>
-        <p class="phone">+38 099 111 11 11</p>
+      <address>
+        <ul class="list">
+          <li><a href="" class="real-address addr link">г. Киев, пр-т Леси Украинки, 26</a></li>
+          <li><a href="mailto:info@example.com" class="email addr link">info@example.com</a></li>
+          <li><a href="tel:+380961111111" class="phone addr link">+38 096 111 11 11</a></li>
+        </ul>
       </address>
     </footer>
   </body>
