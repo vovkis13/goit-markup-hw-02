@@ -4,7 +4,7 @@
   --accent-text-color: #2196f3;
   --white-text-color: #ffffff;
   --black-text-color: #000000;
-  --button-primary-bg-color: #F5F4FA;
+  --button-primary-bg-color: #f5f4fa;
   --hero-button-hover-color: #188ce8;
 }
 
@@ -12,36 +12,6 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--secondary-text-color);
 }
-/*header*/
-.logo span {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-.logo-first-part {
-  color: var(--accent-text-color);
-}
-.logo-second-part {
-  color: var(--black-text-color);
-}
-.nav {
-  color: var(--primary-text-color);
-}
-.nav:hover,
-.nav:focus {
-  color: var(--accent-text-color);
-}
-.addr {
-  color: var(--secondary-text-color);
-}
-.addr:hover,
-.addr:focus {
-  color: var(--accent-text-color);
-}
-
 .list {
   list-style: none;
 }
@@ -53,8 +23,43 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+/*header*/
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--black-text-color);
+}
+.logo-accent {
+  color: var(--accent-text-color);
+}
+.nav {
+  color: var(--primary-text-color);
+}
+.nav:hover,
+.nav:focus {
+  color: var(--accent-text-color);
+}
+.current-page {
+  color: var(--accent-text-color);
+}
+.addr {
+  color: var(--secondary-text-color);
+}
+.addr:hover,
+.addr:focus {
+  color: var(--accent-text-color);
+}
+
+
 /*Герой*/
-.hero-text {
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -62,9 +67,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-color);
-  /* Цвет фона для видимости текста*/
-  background-color: #2f303a;
 }
+
 .hero-button {
   font-weight: 700;
   font-size: 16px;
@@ -76,6 +80,8 @@ body {
   background-color: var(--accent-text-color);
 
   cursor: pointer;
+
+  border: none;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -135,17 +141,17 @@ body {
   background-color: var(--button-primary-bg-color);
 
   cursor: pointer;
+
+  border: none;
 }
 
 .filter-button:hover,
-.filter-button:focus
- {
+.filter-button:focus {
   color: var(--white-text-color);
   background-color: var(--accent-text-color);
 }
 
-
-.portfolio-item {
+.portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -153,12 +159,15 @@ body {
   color: var(--primary-text-color);
 }
 
-.portfolio-item-description {
+.portfolio-description {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
 /*footer*/
+.footer {
+  background-color: #2f303a;
+}
 .real-address {
   font-style: normal;
   font-weight: 400;
@@ -166,8 +175,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-text-color);
-  /* Цвет фона для видимости текста*/
-  background-color: #2f303a;
 }
 
 .email,
@@ -178,6 +185,4 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  /* Цвет фона для видимости текста*/
-  background-color: #2f303a;
 }
